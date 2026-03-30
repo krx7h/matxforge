@@ -32,7 +32,7 @@ https://pypi.org/project/matrixcea/0.1.0/
 ## **Usage example**:
   ```python
 
-from matxxforgex import matrix
+from matrixcea import matrix
   ```
 # Create matrices
   ```python
