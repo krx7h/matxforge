@@ -1,15 +1,13 @@
-# matxforge
+# matxxforgex
 
-**matxforge** is a simple Python library for performing matrix operations.  
+**matxxforgex** is a simple Python library for performing matrix operations.  
 It supports basic linear algebra operations, including addition, subtraction, multiplication, determinant, transpose, reshaping, and even negative powers (using matrix inverse).  
 
-
-##DOWNLOAD FROM :
-  ```python
-https://pypi.org/project/matxxforge/0.1.0/
-```
 ---
-
+##Download From:
+  ```python
+https://pypi.org/project/matxforgexx/0.1.0/
+  ```
 ## **Features**
 
 - Create matrices from lists of lists or single row.
@@ -34,7 +32,7 @@ https://pypi.org/project/matxxforge/0.1.0/
 ## **Usage example**:
   ```python
 
-from matops import matrix
+from matxxforgex import matrix
   ```
 # Create matrices
   ```python
@@ -67,4 +65,3 @@ A_T = A.transpose()
 flat = A.flatten()
 reshaped = A.reshape(1, 4)
  ```
-
