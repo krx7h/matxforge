@@ -26,28 +26,34 @@ It supports basic linear algebra operations, including addition, subtraction, mu
   A ** 3     # matrix power
 
 
-## **Usage example**
-from matops import matrix
+## **Usage example**:
+  ```python
 
+from matops import matrix
+  ```
 # Create matrices
+  ```python
 A = matrix([[1, 2], [3, 4]])
 B = matrix([[5, 6], [7, 8]])
-
+  ```
 # Arithmetic operations
+  ```python
 C = A + B
 D = A - B
 E = A @ B
 F = A * 2
 G = 2 * A
 H = A / 2
-
+  ```
 # Properties
+  ```python
 print(A.is_square())    # True
 print(A.is_identity())  # False
 print(A.is_symmetric()) # False
 print(A.is_zero())      # False
-
+  ```
 # Advanced
+ ```python
 det = A.determinant()
 A_inv = A.inverse()
 A_pow = A ** 3
@@ -55,5 +61,5 @@ A_neg = A ** -1
 A_T = A.transpose()
 flat = A.flatten()
 reshaped = A.reshape(1, 4)
-
+ ```
 
