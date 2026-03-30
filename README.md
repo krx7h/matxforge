@@ -1,6 +1,6 @@
-# matrixcea
+# matrixceax
 
-**matrixcea** is a simple Python library for performing matrix operations.  
+**matrixceax** is a simple Python library for performing matrix operations.  
 It supports basic linear algebra operations, including addition, subtraction, multiplication, determinant, transpose, reshaping, and even negative powers (using matrix inverse).  
 
 ---
@@ -8,6 +8,12 @@ It supports basic linear algebra operations, including addition, subtraction, mu
   ```python
 https://pypi.org/project/matrixcea/0.1.0/
   ```
+
+##Usage:
+  ```python
+from matrixceax import matrix
+  ```
+
 ## **Features**
 
 - Create matrices from lists of lists or single row.
@@ -29,11 +35,6 @@ https://pypi.org/project/matrixcea/0.1.0/
   A ** 3     # matrix power
 
 
-## **Usage example**:
-  ```python
-
-from matrixcea import matrix
-  ```
 # Create matrices
   ```python
 A = matrix([[1, 2], [3, 4]])
