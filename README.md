@@ -6,7 +6,7 @@ It supports basic linear algebra operations, including addition, subtraction, mu
 ---
 ##Download From:
   ```python
-https://pypi.org/project/matrixcea/0.1.0/
+https://pypi.org/project/matrixceax/0.1.0/
   ```
 
 ##Usage:
